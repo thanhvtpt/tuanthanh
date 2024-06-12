@@ -1,0 +1,144 @@
+/* @media only screen and (max-width: 1400.98px){
+  h2.coming-soon-text {
+    margin: 12px 0;
+  }
+  .content-left h1{
+    margin-top: 12px;
+  }
+
+  .language-selector {
+    margin-top: 12px;
+  }
+} */
+
+@media only screen and (max-width: 1380.98px){
+  h2.coming-soon-text {
+    margin: 12px 0;
+  }
+  .content-left h1{
+    margin-top: 12px;
+  }
+
+  .language-selector {
+    margin-top: 12px;
+  }
+
+  #countdown {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 34px;
+  }
+
+  h2.coming-soon-text {
+    font-size: 56px;
+  }
+
+  .content-left {
+    padding: 30px 50px;
+  }
+}
+
+@media only screen and (max-width: 1080.98px){
+  body .container {
+    padding: 0 20px;
+}
+}
+
+
+@media only screen and (max-width: 1001px){
+  img.logo {
+    width: 112px;
+}
+
+  body .container {
+    padding: 0 20px;
+}
+
+body .container {
+  flex-direction: column;
+}
+
+.content-left h1 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h2.coming-soon-text {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.content-left p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+#countdown div {
+  max-width: 79px;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+#countdown {
+  margin-top: 33px;
+  margin-left: 0;
+}
+
+.content-left {
+  width: 80%;
+  padding: 40px 20px;
+}
+
+.content-right {
+  width: 100%;
+}
+
+#countdown div label {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 767px){
+  #countdown {
+    margin-top: 95px;
+}
+
+  #countdown div {
+    max-width: 75px;
+    padding: 10px 18px;
+}
+
+  #countdown {
+    gap: 16px;
+}
+
+  .content-left {
+    width: 100%;
+  }
+  .language-selector {
+    width: 100%;
+  }
+
+  .selected-language{
+    width: 100%;
+  }
+
+  .content-left {
+    height: auto;
+}
+
+
+body .container {
+  justify-content: flex-start;
+}
+
+}
+
+@media only screen and (max-width: 375px){
+  #countdown {
+    gap: 9px;
+  }
+}
